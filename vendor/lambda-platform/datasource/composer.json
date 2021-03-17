@@ -1,0 +1,31 @@
+{
+  "name": "lambda-platform/datasource",
+  "description": "datasource",
+  "type": "plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "munkh-altai",
+      "email": "munkaltai@gmail.com"
+    },
+    {
+      "name": "n0m4dz",
+      "email": "tseegii.it@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "laravel": {
+    "providers": [
+      "Lambda\\DataSourceServiceProvider"
+    ],
+    "aliases": {
+      "Datasource": "Lambda\\DataSource\\DataSource"
+    }
+  },
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Lambda\\DataSource\\": "src"
+    }
+  }
+}

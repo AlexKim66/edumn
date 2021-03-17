@@ -1,0 +1,25 @@
+{
+    "name": "lambda-platform/moqup",
+    "description": "Moqup Page Builder",
+    "type": "module",
+    "license": "MIT",
+    "authors": [{
+        "name": "n0m4dz",
+        "email": "tseegii.it@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "laravel": {
+        "providers": [
+            "Lambda\\Moqup\\MoqupServiceProvider"
+        ],
+        "aliases": {
+            "Moqup": "Lambda\\Moqup\\Moqup"
+        }
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lambda\\Moqup\\": "src"
+        }
+    }
+}

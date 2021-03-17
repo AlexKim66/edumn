@@ -1,0 +1,34 @@
+{
+    "name": "lambda-platform/dataform",
+    "description": "Lambda data form auto generation",
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "n0m4dz",
+            "email": "tseegii.it@gmail.com"
+        },
+        {
+            "name": "munkh-altai",
+            "email": "munkaltai@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "laravel": {
+        "providers": [
+            "Lambda\\Dataform\\DataformServiceProvider"
+        ],
+        "aliases": {
+            "Puzzle": "Lambda\\Dataform\\Dataform"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lambda\\Dataform\\": "src"
+        }
+
+    },
+    "require": {
+
+    }
+}
